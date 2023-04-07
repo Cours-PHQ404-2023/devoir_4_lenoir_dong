@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "devoir-4-lenoir-dong"
+version = "0.1.0"
+description = ""
+authors = ["theolenoir12 <theo.lenoir4@orange.fr>"]
+readme = "README.md"
+packages = [{include = "devoir_4_lenoir_dong"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.22.0"
+matplotlib = "^3.7.1"
+numba = "^65.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
